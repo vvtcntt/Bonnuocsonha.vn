@@ -1,0 +1,27 @@
+﻿<div id="InfoHomes">
+    <div id="news_Homes">
+        <div class="nVar_Homes">
+            <span>Tin tức mới nhất</span>
+        </div>
+        <div id="Content_NewsHomes">
+            @Html.Raw(ViewBag.Chuoi)
+            <div class="Clear"></div>
+            
+            @Html.Raw(ViewBag.Chuoi1)
+        </div>
+    </div>
+    <div id="NewsSale">
+        <div class="nVar_Homes">
+            <span>Khuyến mại mới</span>
+        </div>
+        @Html.Raw(ViewBag.chuoiimages)
+    </div>
+    <div id="VideoHomes">
+        <div class="nVar_Homes">
+            <span>Video giới thiệu</span>
+        </div>
+        <div id="Content_video">
+            @Html.Raw(ViewBag.chuoivideo)
+        </div>
+    </div>
+</div>
