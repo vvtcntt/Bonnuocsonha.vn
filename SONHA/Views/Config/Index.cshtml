@@ -45,13 +45,11 @@
 {   @Html.ValidationSummary(true)
     <div id="main-content">
         <div class="container-fluid">
-            <div style="width: 100%; margin: 0 auto;">
-
+            <div style="width: 100%; margin: 0px auto;">
                 <div id="Breadcrumb" class="Block Breadcrumb ui-widget-content ui-corner-top ui-corner-bottom">
                     <ul>
                         <li><a href='/admin'><i class="icon-home" style="font-size:14px;"></i> Trang chủ</a></li>
-                        <li class='SecondLast'><a href="/GroupProduct"> Cấu hình website</a></li>
-                      
+                        <li class='SecondLast'><a href="/GroupProduct"> Cấu hình website</a></li>                      
                     </ul>
                 </div>
 
@@ -256,7 +254,7 @@
                                 </tr>
                                 <tr>
                                     <td class="key">
-                                        Hotline ngoài giờ <span class="Required">*</span>
+                                        Tổng đài bán hàng<span class="Required">*</span>
                                     </td>
                                     <td>
                                         @Html.TextBoxFor(p => p.HotlineOUT, new { @class = "Name_ad Price_ad", @autofocus = "autofocus" })
@@ -296,7 +294,7 @@
                                 </tr>
                                 <tr>
                                     <td class="key">
-                                        Điện thoại bàn ngoài giờ <span class="Required">*</span>
+                                       Tổng đài bảo hành <span class="Required">*</span>
                                     </td>
                                     <td>
                                         @Html.TextBoxFor(p => p.MobileOUT, new { @class = "Name_ad ", @autofocus = "autofocus" })

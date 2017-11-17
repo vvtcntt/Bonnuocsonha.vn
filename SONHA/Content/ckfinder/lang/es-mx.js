@@ -243,7 +243,7 @@ CKFinder.lang['es-mx'] =
 		FileInvChar		: 'El nombre del archivo no puede contener ninguno de los caracteres siguientes: \n\\ / : * ? " < > |',
 		FolderInvChar	: 'El nombre de la carpeta no puede contener ninguno de los caracteres siguientes: \n\\ / : * ? " < > |',
 
-		PopupBlockView	: 'No ha sido posible abrir el archivo en una nueva venSONHA. Por favor, configure su navegador y desactive todos los bloqueadores de venSONHAs para esta página.',
+		PopupBlockView	: 'No ha sido posible abrir el archivo en una nueva ventana. Por favor, configure su navegador y desactive todos los bloqueadores de ventanas para esta página.',
 		XmlError		: 'No ha sido posible cargar correctamente la respuesta XML del servidor.',
 		XmlEmpty		: 'No ha sido posible cargar correctamente la respuesta XML del servidor. El servidor envió una cadena vacía.',
 		XmlRawResponse	: 'Respuesta del servidor: %s'
