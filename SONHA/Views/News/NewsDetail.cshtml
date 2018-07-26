@@ -1,12 +1,12 @@
 ﻿
 @{
-     Layout = "~/Views/Shared/_LayoutDefault.cshtml";
+    Layout = "~/Views/Shared/_LayoutDefault.cshtml";
 }
 @model SONHA.Models.tblNew
 <div class="Root">
     <div class="Content_Root">
         <nav>
-        @Html.Raw(ViewBag.nUrl)
+            @Html.Raw(ViewBag.nUrl)
         </nav>
         <div class="Clear"></div>
     </div>
@@ -17,7 +17,7 @@
             <div class="nVar_NewsDetail">
                 <h1>@Model.Name</h1>
                 <div class="Clear"></div>
-                <div class="toolbar"><span class="Cate"><span></span>@Html.Raw(ViewBag.NameMenu)</span><span class="Cata"><span></span>Thời gian gửi:@string.Format("{0:d/m/yyyy}",Model.DateCreate)</span><span class="Account"><span></span>@Html.Raw(ViewBag.Username)</span> </div>
+                <div class="toolbar"><span class="Cate"><span></span>@Html.Raw(ViewBag.NameMenu)</span><span class="Cata"><span></span>Thời gian gửi:@string.Format("{0:d/m/yyyy}", Model.DateCreate)</span><span class="Account"><span></span>@Html.Raw(ViewBag.Username)</span> </div>
             </div>
             <div class="NewsDetail">
                 <div class="Des_Detail">
@@ -50,7 +50,7 @@
                 <div id="ConmentFacebook">
                     <div class="fb-comments" data-href="@Request.Url.ToString()" data-num-posts="20" style="width:100%; float:left; margin:0px" width="100%"></div>
                 </div>
-             </div>
+            </div>
             <div class="Tintuclienquan">
                 <span class="Name">Tin tức liên quan</span>
                 <div class="Content_Tintuclienquan">
@@ -63,7 +63,7 @@
         <div id="MenuContent">
             @{Html.RenderAction("partialMenunews", "Right");}
             @{Html.RenderAction("partialHanggia", "Right");}
-             @{Html.RenderAction("partialAdw", "Right");}
+            @{Html.RenderAction("partialAdw", "Right");}
         </div>
 
 
@@ -72,3 +72,8 @@
 </div>
 
 @Html.Raw(ViewBag.Coppy)
+<div id="LinkOut">
+    <a href="http://karofichinhhang.vn" title="Máy lọc nước karofi">Máy lọc nước thông minh</a> chính hãng Karofi rồi thay
+    <a href="http://karofichinhhang.vn/loi-loc-nuoc-karofi" title="Lõi lọc nước Karofi">Lõi lọc nước Karofi</a> cũng là một sự lựa chọn thì  Ngày nào đó bạn cần <a href="http://thayloilocnuoc.com" title="Thay lõi lọc nước tại nhà">Thay lõi lọc nước</a> có thể bạn mua thêm<a href="http://thegioibinhnonglanh.vn" style="color:transparent" title="Binh nong lanh">Bình nóng lạnh</a> hay bạn mua sản phẩm <a href="http://viglaceravietnam.com" title="Thiết bị vệ sinh viglacera">Thiết bị vệ sinh Viglacera</a>, trang bị Kangaroo với <a href="https://kangaroochinhhang.vn/" title="Kangaroo">Kangaroo</a> với <a href="https://kangaroochinhhang.vn/may-loc-nuoc-kangaroo" title="Máy lọc nước">Máy lọc nước </a> hoặc <a href="https://kangaroochinhhang.vn/loi-loc-nuoc-kangaroo" title="lõi lọc nước chính hãng"> lõi lọc nước chính hãng</a>
+    <a href="http://maylocnuocgiengkhoan.com" title="Máy lọc nước giếng khoan">Lọc nước giếng khoan</a>
+</div>
